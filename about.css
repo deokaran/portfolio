@@ -1,0 +1,38 @@
+.about {
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.moreaboutme{
+    font-size: 30px;
+    font-weight: bold;
+    height: 15%;
+    width :70%;
+    text-align: left;
+    text-decoration: underline;
+    color: #d4d4d4;
+}
+
+
+.about-myself{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.personal-data,.school-data,.morepersonal-data{
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+    width :30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid rebeccapurple;
+     font-size: 130%;
+}
+

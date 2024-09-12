@@ -1,0 +1,35 @@
+.socials {
+    background-color: #241459;
+    width: 20%;
+    border-radius: 15px 15px 15px 15px;
+    position: fixed !important;
+    font-size: 25px;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    align-items: left;
+}
+
+.insta,
+.twitter,
+.github,
+.linkedin {
+    align-items: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-social {
+    color: #d4d4d4;
+    text-align: center;
+}
+
+.socials-list:hover {
+    transition: 0.2s;
+    color: white;
+    text-shadow: 9px 5px black ;
+   
+}

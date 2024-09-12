@@ -1,0 +1,52 @@
+@media only screen and (min-width:751px) and (max-width:1200px) {
+
+
+    .about,
+    .knowledge,
+    .projects,
+    .profile {
+        left: 16rem;
+    }
+
+    .nav-button {
+        width: 7rem;
+    }
+
+
+    .project-box {
+        width: 200px;
+
+    }
+
+    em {
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1350px) {
+
+    .about,
+    .knowledge,
+    .projects,
+    .profile {
+        left: 18rem;
+    }
+}
+
+@media only screen and (min-width:75px) and (max-width:1200px){
+
+    .navigation{justify-content: space-between;}
+}
+
+@media only screen and (max-width: 750px) {
+    .socials {
+        position: absolute !important;
+        left: 1px !important;
+    }
+
+    .profile{
+        height: 10px;
+    }
+}
+
+
